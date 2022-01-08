@@ -1,0 +1,17 @@
+*.class
+
+# Package Files #
+*.jar
+*.war
+*.ear
+
+# JetBrains Rider
+.idea/
+*.sln.iml
+*.exe
+
+# Build results
+[Rr]elease/
+[Rr]eleases/
+bld/
+
