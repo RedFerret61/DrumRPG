@@ -1,4 +1,4 @@
-#Drum Rhythm Pattern Generator
+# Drum Rhythm Pattern Generator
 
 Note: There is a demonstration of DrumRPG at: 
 
@@ -14,7 +14,7 @@ https://www.youtube.com/watch?v=zUD9FuKuzeg
 
 *Note: GitHub has a full table of contents with links in the header icon (top left of the readme.md).*
 
-##Pre-requisites
+## Pre-requisites
 I'm assuming you already have a computer with Java 5 (or later) installed:
 
 Windows: start > Run... > cmd
@@ -29,7 +29,7 @@ Mac: OS X includes the full version of Java 2SE 1.5. Go > Utilities > Terminal, 
 
 java -version
 
-##Downloading and Installing
+## Downloading and Installing
 Terms and Conditions: ALL INFORMATION AND CONTENT IS PROVIDED ON AN "AS IS" BASIS. IN NO EVENT WILL I BE LIABLE TO ANY PARTY FOR ANY DIRECT, INDIRECT, SPECIAL OR OTHER CONSEQUENTIAL DAMAGES.
 
 DrumRPG is provided free and is provided open source under the GNU General Public License (GPL) .
@@ -40,27 +40,30 @@ Source code: DrumRPGSource.jar
 
 Example MIDI file from demo session: demo0_01.mid
 
-Credits:
+## Credits
 DrumRPG uses:
 
 the jMusic Java music programming library (License: GPL)
 
 RealistiK Reloaded icons (License: GPL) from opendesktop.org.
 
-##Running
+## Running
 Double click on DrumRPG.jar
 
 Expect the "DrumRPG" window to display and prompt you to "Choose a MIDI file". After a successful "Load" expect something like this::
 
-![This is a DrumRPG image](/assets/images/DrumRPG_htm_4a2b4af1.jpg)
 
 ![This is a DrumRPG image](assets/images/DrumRPG_htm_4a2b4af1.jpg)
 
 
-##Example Sessions
+## Example Sessions
 Drum Rhythm Pattern Generator Demo 1 Over the threshold to new patterns
 
-Hi welcome to the Drum Rhythm Pattern Generator version 0.01 demo video. This shows you how to generate new main and fill drum patterns from existing MIDI files. DrumRPG is provided free and is open source. It uses the jMusic Java music programming library.
+Hi welcome to the Drum Rhythm Pattern Generator version 0.01 demo video.
+
+https://www.youtube.com/watch?v=zUD9FuKuzeg
+
+This shows you how to generate new main and fill drum patterns from existing MIDI files. DrumRPG is provided free and is open source. It uses the jMusic Java music programming library.
 
 Firstly have you got Java 5 or later installed? Check this by Start, Run, cmd, java -version. If not google java download and install a Java Runtime Environment (JRE) . Now to run the program, double click on DrumRPG.jar. Choose a type 1 midi file with drums on channel 10. Google midi files to find some, for example Enter the Sandman.
 
@@ -103,7 +106,7 @@ So to conclude this demo, a MIDI sequencer was used to string together patterns 
 
 Note: I used Cubase LE, later versions of Cubase (e.g. Cubase 4) support dragging and dropping midi files Select File > Preferences, ensure the following options under MIDI files are deselected: “Auto Dissolve Format 0″ and “Import To Instrument Tracks”.
 
-##Known Problems
+## Known Problems
 MIDI playback may stop while looping, need to restart to get midi playback, seen on sun 1.6.0_07 seems to be more reliable with Sun Java 5: http://java.sun.com/javase/downloads/index_jdk5.jsp Java Runtime Environment (JRE) 5.0 Update 17
 
 Occasional exception (does not crash program) when click “Stop” : Cycle-playing Drum Exception in thread "AWT-EventQueue-0" java.lang.NullPointerException at jm.midi.MidiSynth.stop(MidiSynth.java:183)
