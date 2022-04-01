@@ -4,6 +4,8 @@ Note: There is a demonstration of DrumRPG at:
 
 https://www.youtube.com/watch?v=zUD9FuKuzeg
 
+[![DrumRPG video](assets/images/youtube3.png)](https://www.youtube.com/watch?v=zUD9FuKuzeg&t=45s"DrumRPG video")
+
 
 **Table of Contents**
 1. Pre-requisites
