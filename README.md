@@ -1,12 +1,6 @@
 # Drum Rhythm Pattern Generator
 
-Note: There is a demonstration of DrumRPG at: 
-
-https://www.youtube.com/watch?v=zUD9FuKuzeg
-
-[![demo video thumbnail](/docs/pic/demovideo-thumb.png)](https://youtu.be/GXCEjtqoQWU)
-
-[![Everything Is AWESOME](http://i.imgur.com/Ot5DWAW.png)](https://youtu.be/StTqXEQ2l-Y?t=35s "Everything Is AWESOME")
+Note: demo video: 
 
 [![DrumRPG video](assets/images/youtube3.png)](https://www.youtube.com/watch?v=zUD9FuKuzeg&t=45s "DrumRPG video")
 
